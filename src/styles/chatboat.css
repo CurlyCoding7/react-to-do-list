@@ -1,0 +1,96 @@
+.chatboat-container {
+  color: white;
+  position: fixed;
+  top: 40px;
+  right: 10px;
+  width: 350px;
+  height: 32rem;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 1px 5px black;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: black;
+  padding: 0.5rem 1rem;
+  height: 10%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+h1 {
+  font-size: 1.1rem;
+}
+
+.msg-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+}
+
+.scrollbar::-webkit-scrollbar {
+  display: none;
+  width: 3px;
+}
+
+.msg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+p {
+  color: black;
+  max-width: 70%;
+  padding: 10px;
+  margin: 20px 10px;
+  border-radius: 0 50px 50px 50px;
+  border: 1px solid black;
+}
+p span {
+  margin: 5px;
+}
+p span:first-child {
+  margin-right: 0;
+}
+.user_msg {
+  text-align: right;
+  margin-left: 30%;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: black;
+  color: white;
+  border-radius: 50px 0px 50px 50px;
+}
+.hide {
+  visibility: hidden;
+  display: none;
+}
+form {
+  height: 10%;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 0px 0px 10px 10px;
+  border: 1px solid lightgray;
+}
+input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: black;
+  background: transparent;
+  display: flex;
+  align-items: center;
+}
+input::placeholder {
+  color: gray;
+}
+input:focus {
+  outline: none;
+}
