@@ -4,10 +4,9 @@ import { BsRobot } from "react-icons/bs";
 import ScrollableFeed from "react-scrollable-feed";
 import "../styles/chatboat.css";
 
-//API-KEY = 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
 
 const openai = new OpenAI({
-  apiKey: "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",
+  apiKey: "",
   dangerouslyAllowBrowser: true
 });
 
